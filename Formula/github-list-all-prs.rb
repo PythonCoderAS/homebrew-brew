@@ -14,7 +14,7 @@ class GithubListAllPrs < Formula
   depends_on "node"
 
   def install
-    # Call rm -f instead of rimraf, because devDeps aren't present in Homebrew at postpack time
+    # Call rm -f instead of shx, because devDeps aren't present in Homebrew at postpack time
     inreplace "package.json", "shx rm -f oclif.manifest.json", "rm -f oclif.manifest.json"
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
     bin.install_symlink Dir["#{libexec}/bin/*"]
