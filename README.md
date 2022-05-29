@@ -1,5 +1,5 @@
 # homebrew-brew
-Tap for npm CLI tools by me.
+Tap for CLI tools by me.
 
 Add the tap by `brew tap PythonCoderAS/brew`.
 
