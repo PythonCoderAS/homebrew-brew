@@ -3,8 +3,8 @@ require "language/node"
 class GithubCopySecrets < Formula
   desc "Copy given secrets to a repository"
   homepage "https://github.com/PythonCoderAS/github-copy-secrets#readme"
-  url "https://registry.npmjs.org/github-copy-secrets/-/github-copy-secrets-1.0.1.tgz"
-  sha256 "a6a61b28c2a1669f340263ac083704036feec311fe589772620144d20a9edfbe"
+  url "https://registry.npmjs.org/github-copy-secrets/-/github-copy-secrets-1.0.2.tgz"
+  sha256 "325047d9065335565b32ea7190578aa034e2a46f13a3af2093329971b436da56"
   license "MIT"
 
   livecheck do
