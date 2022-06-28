@@ -3,8 +3,8 @@ require "language/node"
 class GithubRunScript < Formula
   desc "Run a script on multiple repositories, cloning them if needed"
   homepage "https://github.com/PythonCoderAS/github-run-script#readme"
-  url "https://registry.npmjs.org/github-run-script/-/github-run-script-1.0.4.tgz"
-  sha256 "0f89dbafefeb8807a085ff79dfd838e59f72ac9048c4c41711bdb4cf01b26e1a"
+  url "https://registry.npmjs.org/github-run-script/-/github-run-script-1.1.0.tgz"
+  sha256 "5bd570e9f8806452c14aa72a7a3569926cb716303805dae573d092a199bee9bf"
   license "MIT"
 
   livecheck do
