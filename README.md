@@ -8,3 +8,4 @@ Add the tap by `brew tap PythonCoderAS/brew`.
 * [`github-watch-all-repos`](https://github.com/PythonCoderAS/github-watch-all-repos)
 * [`github-list-all-prs`](https://github.com/PythonCoderAS/github-list-all-prs)
 * [`github-copy-secrets`](https://github.com/PythonCoderAS/github-copy-secrets)
+* [`github-run-script`](https://github.com/PythonCoderAS/github-run-script)
