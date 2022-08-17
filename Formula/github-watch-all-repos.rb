@@ -6,6 +6,8 @@ class GithubWatchAllRepos < Formula
   url "https://registry.npmjs.org/github-watch-all-repos/-/github-watch-all-repos-1.0.3.tgz"
   sha256 "9d9e50506282633f1bf70dce6d5c693dde03d727243ddd0d9a58496298b05f7d"
   license "MIT"
+  
+  deprecate! date: "2022-08-17", because: :repo_archived
 
   livecheck do
     url :stable

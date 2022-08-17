@@ -7,6 +7,8 @@ class GithubListAllPrs < Formula
   sha256 "b04b352900489b57a072b7919c9e66daf08e292f16b66d7aa3f00b9de273cfef"
   license "MIT"
 
+  deprecate! date: "2022-08-17", because: :repo_archived
+
   livecheck do
     url :stable
   end
