@@ -3,8 +3,8 @@ require "language/node"
 class GhAllRepos < Formula
   desc "Do anything on all repos that belong to a user/org"
   homepage "https://github.com/PythonCoderAS/gh-all-repos#readme"
-  url "https://registry.npmjs.org/gh-all-repos/-/gh-all-repos-1.0.1.tgz"
-  sha256 "8009846230ded68efc3b82f05065ba7183154cbd23ec2514cd765f5df73a4b30"
+  url "https://registry.npmjs.org/gh-all-repos/-/gh-all-repos-1.1.0.tgz"
+  sha256 "9c8f55c46f18ab507c9a634b83aa129fcd176a52a6754453c7fe4afb801e4241"
   license "MIT"
 
   livecheck do
